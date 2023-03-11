@@ -10,7 +10,7 @@
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
 
-fun duplicateCount(text: String): Int {
+fun duplicateCount2(text: String): Int {
     val seen = mutableSetOf<Char>()
     val duplicates = mutableSetOf<Char>()
     for (char in text.lowercase()) { //Initial string to lowercase so upper case == lower case (A == a)
